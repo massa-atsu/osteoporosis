@@ -7,7 +7,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.model_selection import train_test_split
 
 # Loading dataset
-file_path = '/content/drive/MyDrive/IIP/Capstone Project/osteoporosis.csv'
+file_path = 'https://github.com/massa-atsu/osteoporosis/blob/main/osteoporosis.csv'
 df = pd.read_csv(file_path)
 
 # Data preprocessing
